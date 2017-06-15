@@ -1,0 +1,44 @@
+{
+    "appComponent": {
+        
+    },
+    "loginComponent": {
+        "headerLogo": "SmartLabs",
+        "headerLogin": "Login",
+        "Email": "Email*",
+        "Password": "Password*",
+        "submit": "Submit",
+        "errorMsg": "Incorrect Email or Password. Please try again",
+        "errorEmail": "Email is Required",
+        "errorPassword": "Password is Required"
+    },
+    "homeComponent": {        
+        "headerLogo": "SmartLabs",
+        "home": "Home",
+        "processMonitor": "Process Monitor",
+        "resourcesTracker": "Resources Tracker",
+        "content360": "Content 360",
+        "criticalPaths": "Critical Paths",
+        "patternView": "Pattern View",
+        "welcome": "Welcome",
+        "role": "Role:",
+        "logout": "Logout",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "processMonitorComponent": {
+        "processMonitor": "Process"
+    },
+    "resourcesTrackerComponent": {
+        "resourcesTracker": "Resources"
+    },
+    "content360Component": {
+        "content360": "Content"
+    },
+    "criticalPathsComponent": {
+        "criticalPaths": "Critical Paths"
+    },
+    "patternViewComponent": {
+        "patternView": "Pattern"
+    }
+}

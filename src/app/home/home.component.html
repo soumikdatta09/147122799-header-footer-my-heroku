@@ -1,0 +1,88 @@
+<md-sidenav-container class="md-container">
+    <md-sidenav #sidenav class="md-sidenav" mode="side" opened="true">
+        <md-toolbar class="headerLogo">
+            {{ 'homeComponent.headerLogo' | translate:lang }}
+        </md-toolbar>
+        <nav md-tab-nav-bar>
+            <ul class="sidenavmenulist">
+                <li>
+                    <i class="material-icons sidenav">home</i>
+                    <a class="sidenavLink" md-tab-link routerLink="/home/index" id="home">{{ 'homeComponent.home'  | translate:lang }}</a>
+                </li>
+                <li>
+                    <i class="material-icons sidenav">device_hub</i>
+                    <a class="sidenavLink" md-tab-link routerLink="/home/processmonitor" id="processMonitor">{{ 'homeComponent.processMonitor'  | translate:lang }}</a>
+                </li>
+                <li>
+                    <i class="material-icons sidenav">important_devices</i>
+                    <a class="sidenavLink" md-tab-link routerLink="/home/resourcestracker" id="resourcesTracker">{{ 'homeComponent.resourcesTracker' | translate:lang }}</a>
+                </li>
+                <li>
+                    <i class="material-icons sidenav">format_align_left</i>
+                    <a class="sidenavLink" md-tab-link routerLink="/home/content360" id="content360">{{ 'homeComponent.content360'  | translate:lang }}&deg;</a>
+                </li>
+                <!--<li>
+                    <i class="material-icons sidenav">error_outline</i>
+                    <a class="sidenavLink" md-tab-link routerLink="/home/criticalpaths" id="criticalPaths">{{ 'homeComponent.criticalPaths'  | translate:lang }}</a>
+                </li>-->
+                <li>
+                    <i class="material-icons sidenav">timeline</i>
+                    <a class="sidenavLink" md-tab-link routerLink="/home/patternview" id="PatternView">{{ 'homeComponent.patternView'  | translate:lang }}</a>
+                </li>
+            </ul>
+        </nav>
+    </md-sidenav>
+
+    
+    <nav md-tab-nav-bar>
+        <div class="topNavBar">
+            <!--<button md-button (click)="sidenav.toggle();">
+            <i class="material-icons">menu</i>
+        </button>-->
+
+            <label id="blankSpacer"></label><label id="blankSpacer"></label>
+            <label md-span *ngIf="data" id="welcome">{{ 'homeComponent.welcome'  | translate:lang }}, {{data}}</label>
+            <label *ngIf="role" id="role">{{ 'homeComponent.role'  | translate:lang }} {{role}}</label>
+            <a md-tab-link routerLink="/login" id="Logout">{{ 'homeComponent.logout'  | translate:lang }}</a>
+
+        </div>
+    </nav>
+    <router-outlet></router-outlet>
+
+    <!--Footer-->
+    <footer>
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+                <!--First column-->
+                <div class="col-md-2 offset-md-1">
+                    <h3 class="title">{{ 'homeComponent.headerLogo' | translate:lang }}</h3>
+                </div>
+                <!--/.First column-->
+                <div class="col-md-1 offset-md-1 footerLinks">
+                    |<a routerLink="/home/index" class="homeFooter" id="footerHome">{{ 'homeComponent.home'  | translate:lang }}</a>                    
+                </div>
+                <div class="col-md-1 offset-md-1 footerLinks">
+                    |<a routerLink="" class="homeFooter" id="footerAbout">{{ 'homeComponent.about'  | translate:lang }}</a>
+                </div>
+                <div class="col-md-1 offset-md-1 footerLinks">
+                    |<a routerLink="" class="homeFooter" id="footerContact">{{ 'homeComponent.contact'  | translate:lang }}</a>
+                </div>
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                &copy; 2017 Copyright: SmartLabs.
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+
+</md-sidenav-container>

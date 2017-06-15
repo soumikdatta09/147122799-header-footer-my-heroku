@@ -1,0 +1,162 @@
+.navbar-collapse-grey{
+    background-color: silver;
+}
+
+.navbar-nav  a {
+    color: black;    
+}
+
+ul.nav.navbar-nav > li {
+    font-size: larger;
+}
+
+.sidenavmenulist{
+     list-style: none;
+}
+
+nav.mat-tab-nav-bar {
+    background-color: #ffffff;
+}
+
+.mat-tab-link{
+    opacity: 1.5;
+}
+
+#welcome {
+    min-width: 100px;
+    line-height: 48px;
+    height: 48px;
+    padding: 0 12px;
+    font-size: 14px;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-weight: 500;
+    cursor: default;
+    box-sizing: border-box;
+    opacity: .6;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+#role {
+    min-width: 100px;
+    line-height: 48px;
+    height: 48px;
+    padding: 0 12px;
+    font-size: 14px;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-weight: 500;
+    cursor: default;
+    box-sizing: border-box;
+    opacity: .6;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+#blankSpacer {
+    min-width: 160px;
+    line-height: 48px;
+    height: 48px;
+    padding: 0 12px;
+    font-size: 14px;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-weight: 500;
+    cursor: default;
+    box-sizing: border-box;
+    opacity: .6;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+#Logout {
+  min-width: 100px;
+  color: white;
+}
+
+.md-container {
+  width: 100%;
+  height: 750px;
+  /*border: 1px solid rgba(0, 0, 0, 0.5);*/
+}
+
+/*.example-sidenav-content {
+  display: flex;
+  height: 10%;
+  align-items: center;
+  justify-content: left;
+}*/
+
+.md-sidenav {
+  padding: 20px;
+}
+
+.mat-sidenav-backdrop.mat-sidenav-shown {
+    opacity: 0;
+}
+
+i.material-icons.sidenav{
+    padding-top: 10px;
+    color: #033782;
+}
+
+a.sidenavLink{
+    text-align: left;
+    color: #033782;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: #587091;
+    color: white;
+}
+
+
+
+.footer-copyright{
+    font-size: 12px;
+    text-align: right;
+}
+
+.topNavBar{
+    background-color: #587091;
+    text-align: right;
+    color: white;
+}
+
+md-sidenav.md-sidenav.mat-sidenav.mat-sidenav-opened.mat-sidenav-side {
+    box-shadow: 1px 0px 1px #888888;
+}
+
+a, u {
+    text-decoration: none;
+}
+
+.homeFooter{
+    color: white;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+div.footerLinks{
+    margin-top: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div.footerLinksPipe{
+    width: 5px;
+}

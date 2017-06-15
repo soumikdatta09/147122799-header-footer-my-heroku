@@ -1,0 +1,179 @@
+body{
+  margin: 0px 0px 0px 0px;
+}
+.help-block {
+    font-size: 12px;
+}
+.container{
+  margin: 0px;
+}
+.example-container {
+  width: 500px;
+}
+
+.example-button-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.progress{
+  width: 75%;
+  margin-left: 20%;
+}
+.custom-card{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+}
+.content{
+  margin-left: 4%;
+  margin-bottom: 1.5%;
+  margin-top: 2.5%;
+  font-weight: bold;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+.custom-title{
+  font-weight: bold;
+  font-size: 16px;
+}
+.custom-cpp{
+  color: darkgrey;
+  font-size: 12px;
+  font-weight: lighter;
+  padding-top: 4px;
+}
+.custom-icon{
+  margin-left: 50%;
+}
+.custom-label{
+  font-weight: bold;
+  padding-left: 2%;
+  color: darkgrey;
+}
+.custom-label-units{
+  font-weight: bold;
+  color: darkgrey;
+  padding-left: .2%;
+}
+.custom-expand{
+  padding-left: 35px;
+}
+.custom-inner-card{
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    background-color: white;;
+}
+.progress{
+  margin-bottom: 0px;
+  border-radius: 9px;
+  width: 100%;
+  margin-left: 0;
+}
+.breadcrumb {
+  padding: 0px;
+	background: #D4D4D4;
+	list-style: none; 
+	overflow: hidden;
+  margin-top: 20px;
+  margin-right: 5%;
+}
+.breadcrumb>li+li:before {
+	padding: 0;
+}
+.breadcrumb li { 
+	float: left; 
+}
+.breadcrumb li.active a {
+	background: brown;                   /* fallback color */
+	background: grey ; 
+}
+.breadcrumb li.completed a {
+	background: brown;                   /* fallback color */
+	background: grey; 
+}
+.breadcrumb li.active a:after {
+	border-left: 30px solid grey ;
+}
+.breadcrumb li.completed a:after {
+	border-left: 30px solid grey;
+}
+
+.breadcrumb li a {
+	color: white;
+	text-decoration: none; 
+  word-wrap: normal;
+	padding: 10px 0 10px 45px;
+	position: relative; 
+	display: block;
+	float: left;
+}
+.breadcrumb li a:after { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid hsla(0, 0%, 83%, 1);
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	left: 100%;
+	z-index: 2; 
+}	
+.breadcrumb li a:before { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid white;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	margin-left: 1px;
+	left: 100%;
+	z-index: 1; 
+}	
+.breadcrumb li:first-child a {
+	padding-left: 15px;
+}
+
+.accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: black;         /* adjust as needed */
+}
+.accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+.contentHeader{
+  margin-left: 4%;
+  margin-bottom: 1.5%;
+  margin-top: 2.5%;
+  font-weight: bold;
+}
+hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.form-group {
+    margin-bottom: 0px;
+}
+.alert-danger{
+background-color:white
+}
+/*mat-input-container {
+  display: block;
+}*/
+.form-control{
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.0);
+}
